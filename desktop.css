@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    background-color:black;
+    color:white;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+/* navbar start */
+.main-continer{
+    border:2px solid red;
+    position: absolute;
+    width: 1150px;
+    height:715px;
+    left:0;
+    right:0;
+    /* margin-top:20px; */
+}
+.nav-title{
+    /* border:2px solid red; */
+    position: absolute;
+    width: 900px;
+    height:46px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    left:150px;
+    top:30px;
+    padding:0px;
+    
+   
+
+}
+.navbar-title{
+    position: static;
+    font-family: Inter;
+    width: 132px;
+    height: 43px;
+    color:rgb(230,83,60);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+
+}
+.navbar-container-ul{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+   
+    list-style: none;
+    
+    gap:30px;
+    
+   
+}
+.navbar-row-positon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border:1px solid rgba(255, 255, 255, 0.397);
+    border-radius: 39px;
+    width: 350px;
+    height: 46px;
+
+    position: absolute;
+    right: 47px;
+
+}
+
+.continer-titile{
+    border:2px solid red;
+    position:absolute;
+    width:480px;
+    height: 360px;
+    left: 150px;
+    top:199px;
+}
+.continer-text-title{
+    border:2px solid red;
+    position: static;
+    width: 480px;
+    height: 200px;
+    color:rgb(255,255,255);
+    font-size:50px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.text-description{
+    border:2px solid red;
+    position: static;
+    width: 480px;
+    height: 50px;
+    color:rgba(255,255,255,0.5);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.btn-primary{
+    display: flex;
+}
+.btn-join-club-now-style{
+    border:2px solid red;
+    position: static;
+    /* width: 131px;
+    height: 22px; */
+    font-size: 25px;
+    font-weight: 600;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding:14px 30px 14px 30px;
+    text-align: left;
+    background:rgb(230,83,60);
+    color:rgb(255,255,255);
+    border-radius: 42px;
+
+}
+.btn-Download-App{
+    border:1px solid rgb(255, 255, 255);
+    position:static;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   padding:14px 30px 14px 30px;
+   background-color: black;
+   text-align: left;
+   color:rgb(255,255,255);
+   border-radius: 42px;
+
+}
+.banner-image{
+    position:absolute;
+    width: 300px;
+    height: 480px;
+    left:750px;
+    top:100px;
+}
