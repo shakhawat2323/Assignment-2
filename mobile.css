@@ -1,0 +1,17 @@
+@media screen and (max-width:576px){
+   .nav-title,
+   .navbar-list-itme,
+   .navbar-container-ul{
+      flex-direction: column;
+   }
+   .main-continer{
+      max-width:100% ;
+   }
+   .navbar-container{
+      max-width: 100%;
+   }
+
+
+}
+
+
